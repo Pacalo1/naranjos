@@ -305,7 +305,7 @@ def socket():
     
     evento_t=threading.Timer(3,evento_f) # el threading.timer crea un evento en segundo plano que no detiene la ejecucion del programa cuando lo metamos en un bucle infinito
     evento_t.start()              # rodamos el threding y lo enviamos a evento_f
-
+    #m
 
 
 #***************************************************************************************************************
